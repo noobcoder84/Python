@@ -6,11 +6,11 @@ class Cars:
         self.year = year
 
     def car_details(self):
-        #return '{} {} {}'.format(self.name, self.model, self.year)
-        print(self.name, self.model, self.year)
+        return '{}\n{}\n{}'.format(self.name, self.model, self.year)
+        #print(self.name, self.model, self.year)
 
 new_car = Cars('bmw', 'x5', 2019)
-#print(new_car.car_details)
-new_car.car_details()
+print(new_car.car_details())
+#new_car.car_details()
 
 
