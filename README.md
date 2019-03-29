@@ -1,4 +1,4 @@
-# Python Learning
+# Learning Python
 
 I am teaching my self python and I uploaded sample files here so I can access them from another PC
 
