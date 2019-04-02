@@ -1,5 +1,5 @@
 # This program calculates total energy requirement in burn patients
-# It uses the two widely applied formula; Curreri and Harris-Benedict
+# It uses the two widely applied formulas; Curreri and Harris-Benedict
 
 def main():
 
@@ -43,6 +43,7 @@ def main():
     print("||          Energy Requirement Calculator          ||")
     print("||                                                 ||")
     print("=====================================================")
+
 # Ask the user to input the patient parameters    
     new_ptn = Patient()
     new_ptn.sex = str(input("Patient gender(m/f): "))
@@ -55,15 +56,14 @@ def main():
     print("\nCurreri Energy Requirement")
     print(str(new_ptn.curreri()) + " kcal")
 
-# This outputs the Harris-Benedict formula
+# This here outputs the Harris-Benedict formula
     print("\nHarris-Benedict Basal Energy Expenditure")
     print(str(new_ptn.harris()) + " kcal")
 
-# This outputs the average of the two systems
+# And this outputs the average of the two systems
     print("\nTotal Daily Energy Requirement (Avg.)")
     print(str(new_ptn.average()) + " kcal")
     print("\n")
 
 if __name__ == "__main__":
     main()
-
